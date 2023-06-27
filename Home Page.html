@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>First project</title>
+            <link rel="stylesheet" href="new.css">
+            <script src="test.js"></script>
+        </head>
+        <body><!--الصفحه الرئسيه-->
+         
+           <header>
+            <h1> Encyclopedia </h1><!--اسم الموقع-->
+                
+
+                 <div class="ser"><!-- ايقونه البحث للبحث عن الكتب الذي يحتاجها-->
+                     
+                        <form >
+                           <input   placeholder="ما الذي تبحث عنه؟"   type="text"> 
+                 
+                            <button  type="submit">بحث</button>
+            
+                        </form>
+             
+                     </div> </h1>
+           </header>
+ 
+
+           <nav><!--المكان اللي هنعرض فيه الروابط المختصره المباشره-->
+            <ul>
+                <li>  <a href="file:///C:/Users/عادل/Desktop/My%20Project/Home%20Page.html" data-toggle="modal" data-target="#modalLRForm"> Home</a></li>
+                <li> 
+                    <a href="login.html" data-toggle="modal" data-target="#modalLRForm"> login </a>
+                </li>
+                <li>subscribe</li>
+                <li>about us</li>
+            </ul>
+
+           </nav>
+
+           
+        
+
+           <h2 style="color: black;" class="des" >المكتبة على موبايلك!</h2><br><!--جملتين لتحفيز القارئ-->
+           <h2 style="color: black;" class="des2">نتمني لكم وقتا ممتعا</h2>
+
+           <article><!--لعرض المقالات بشكل اكثر ترتيبا-->
+            <section  ><!--تقسيم الانواع لاقسام للتسهيل علي القارئ ان يجد ما يحتاجه في اسرع وقت-->
+                <img src="img2.jpg" alt= "رويات" >
+                <h2>روايات-عالمية</h2>
+                <p id="roaya"> </p>
+                
+            <script> //كود جافا سكربت لكتابه بلغراف
+                document.getElementById("roaya").innerHTML=" هنا ستجد كل ما تحتاجه من روايات";
+                
+            </script>
+                <a style="border: 5px; color: blue;" href="Novels/Novels.html" data-toggle="modal" data-target="#modalLRForm"> go to Novels </a>
+                  <!--رابط للوصول لصفحه الروايات-->
+            </section>
+ 
+              <section>
+                <img src="img4.jpg" alt= "قصص" > 
+                    <!--لعرض صوره في الموقع-->
+                <h2>قصص</h2>
+                <p id="story"></p> 
+                <script> 
+                    document.getElementById("story").innerHTML=" تشمل القصص القصيره والطويله اتمني لك وقتا ممتعا";
+                     
+                </script>
+                <a style="border: 5px; color: blue;" href="stories/stories.html" data-toggle="modal" data-target="#modalLRForm"> go to stories </a>
+            </section>
+                <section>
+                <img src="classic.jpg" alt= "قصص دينيه">
+                <h2>قصص كلاسيكيه</h2>
+                <p id="story2"></p>
+                <script> 
+                    document.getElementById("story2").innerHTML="هنا ستجد بعض القصص الدنيه التي تحتوي علي عبر";
+                </script>
+                  <a style="border: 5px; color: blue;" href="classic stories/classic stories.html" data-toggle="modal" data-target="#modalLRForm"> go to more </a> 
+            </section>
+                
+            <section>
+                <img src="img1.jpg" alt="كتب مترجمه" >
+                <h2>كتب مترجمه</h2>
+                <p id="books"></p> 
+                <script> 
+                    document.getElementById("books").innerHTML="كتبك المترجمه سبيلك لتعلم ثقافات اخري";
+                </script>
+                 <a style="border: 5px; color: blue;" href="Translated Books/Translated Books.html" data-toggle="modal" data-target="#modalLRForm"> go to more </a> 
+            </section>
+            
+           </article>
+           <div>
+           <video controls width="600" height="300"> <!--لعرض فديو في الصفحه-->
+
+            <source src="video.mp4" type="video/mp4">
+            
+           </video>
+
+            <video controls width="600" height="300"> 
+
+                <source src="video2.mp4" type="video/mp4">
+    
+            </video>
+            <div class="sech"> 
+                <h2 style="color: black;"> تواصل معنا واخبرنا رائك يهمنا </h2><!--لي الزائرين يمكنهم الاتصال بينا ويخبرونا رائهم-->
+                <ul  ><li  ><a href="https://www.facebook.com/storytel.arabia" >حسابنا على فيسبوك</a>
+                </li><li  ><a href="https://twitter.com/storytel_arabia" >حسابنا على تويتر</a>
+                </li><li ><a href="https://www.instagram.com/storytel.arabia/"  >حسابنا على إنستجرام</a>
+                </li>
+            <li>
+                   <a href="mailto:adelmansour95@gmail.com? subject=subject test"> encyclopedia email</a>   </li></ul><!--الايميل الشخصي-->
+            </div>
+           </div>
+
+ 
+          
+                
+           <footer><!--اسفل الموقع-->
+          
+                coyrights 2005  &copy; all copyrights reserved for MAD developers <br> 
+              
+            </footer>
+        </body>
+    </html>
